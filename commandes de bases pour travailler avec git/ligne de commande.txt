@@ -1,0 +1,16 @@
+
+git init ->crèe un fichier .git pour gérer les versions de fichiers 
+git status -> permet de voir quel fichier on été modifié mais pas commit 
+git add → l’indexation (staging)
+
+Cette étape prépare les fichiers que tu veux inclure dans le commit.
+
+Tu peux choisir certains fichiers seulement si tu ne veux pas tout committer.
+
+Git met ces fichiers dans ce qu’on appelle la "staging area" (zone de préparation).
+
+git commit → la validation
+
+Cette étape enregistre définitivement les fichiers ajoutés dans l’historique du dépôt.
+
+Tu dois fournir un message avec -m pour expliquer ce que contient le commit.
